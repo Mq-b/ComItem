@@ -63,33 +63,33 @@ public:
     explicit ComThemeAttached(QObject *parent = nullptr);
 
     // Getters
-    QColor primary() const { return QColor("#6366f1"); }
-    QColor primaryHover() const { return QColor("#4f46e5"); }
-    QColor primaryPressed() const { return QColor("#4338ca"); }
-    QColor primaryLight() const { return QColor("#a5b4fc"); }
+    QColor primary() const { return QColor("#0E97A7"); }
+    QColor primaryHover() const { return QColor("#0B8492"); }
+    QColor primaryPressed() const { return QColor("#096B76"); }
+    QColor primaryLight() const { return QColor("#E7F5F7"); }
 
-    QColor textPrimary() const { return QColor("#1e1b4b"); }
-    QColor textSecondary() const { return QColor("#6b7280"); }
-    QColor textDisabled() const { return QColor("#9ca3af"); }
-    QColor textOnPrimary() const { return QColor("#ffffff"); }
+    QColor textPrimary() const { return QColor("#3E4F63"); }
+    QColor textSecondary() const { return QColor("#6F7C88"); }
+    QColor textDisabled() const { return QColor("#A0AAB3"); }
+    QColor textOnPrimary() const { return QColor("#FFFFFF"); }
 
-    QColor background() const { return QColor("#ffffff"); }
-    QColor backgroundHover() const { return QColor("#f5f3ff"); }
-    QColor backgroundDisabled() const { return QColor("#f3f4f6"); }
+    QColor background() const { return QColor("#FFFFFF"); }
+    QColor backgroundHover() const { return QColor("#F2F2F2"); }
+    QColor backgroundDisabled() const { return QColor("#F1F1F1"); }
 
-    QColor border() const { return QColor("#c7d2fe"); }
-    QColor borderFocus() const { return QColor("#6366f1"); }
-    QColor borderError() const { return QColor("#ef4444"); }
+    QColor border() const { return QColor("#D4D4D4"); }
+    QColor borderFocus() const { return QColor("#0E97A7"); }
+    QColor borderError() const { return QColor("#C94A2F"); }
 
-    QColor success() const { return QColor("#10b981"); }
-    QColor warning() const { return QColor("#f59e0b"); }
-    QColor error() const { return QColor("#ef4444"); }
+    QColor success() const { return QColor("#17A84B"); }
+    QColor warning() const { return QColor("#EF7432"); }
+    QColor error() const { return QColor("#C94A2F"); }
 
-    QColor shadow() const { return QColor("#1e1b4b20"); }
+    QColor shadow() const { return QColor("#00000014"); }
 
-    int radiusSmall() const { return 4; }
-    int radiusMedium() const { return 6; }
-    int radiusLarge() const { return 8; }
+    int radiusSmall() const { return 2; }
+    int radiusMedium() const { return 4; }
+    int radiusLarge() const { return 6; }
     int radiusCombo() const { return 1; }
 
     int fontSizeSmall() const { return 12; }
@@ -100,7 +100,7 @@ public:
     int spacingMedium() const { return 8; }
     int spacingLarge() const { return 12; }
 
-    int animationDuration() const { return 150; }
+    int animationDuration() const { return 120; }
 };
 
 // ComTheme - 提供附加属性的类
