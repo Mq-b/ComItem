@@ -42,13 +42,13 @@ ComItem 是一个 Qt6 QML 插件库，提供统一蓝紫色主题风格的可复
 
 ```powershell
 # 配置
-cmake -B build -G Ninja -DCMAKE_PREFIX_PATH="D:/Qt/Qt6.8/6.8.1/msvc2022_64"
+cmake -B build -G "Ninja Multi-Config" -DCMAKE_PREFIX_PATH="D:/Qt/Qt6.8/6.8.1/msvc2022_64"
 
 # 构建 Debug 版本
-cmake --build build --config Debug
+cmake --build build --config Debug -j
 
 # 构建 Release 版本
-cmake --build build --config Release
+cmake --build build --config Release -j
 ```
 
 ### 3. 自动安装
